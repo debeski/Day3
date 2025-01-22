@@ -18,7 +18,7 @@
         <userRemoteConfigs>
             <hudson.plugins.git.UserRemoteConfig>
                 <url>https://github.com/debeski/Day3.git</url>
-                <credentialsId>git:996e1f714b08e971ec79e3bea686287e66441f043177999a13dbc546d8fe402a</credentialsId>
+                <credentialsId>996e1f714b08e971ec79e3bea686287e66441f043177999a13dbc546d8fe402a</credentialsId>
             </hudson.plugins.git.UserRemoteConfig>
         </userRemoteConfigs>
         <branches>
