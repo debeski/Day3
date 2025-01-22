@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+<name>OurSampleJob</name>
+<description>This is a sample job</description>
+<builder>
+<hudson.tasks.BatchFile>
+<command>Welcome to Our Sample Job Breated by Jenkins CLI</command>
+</hudson.tasks.BatchFile>
+</builder>
+</project>

@@ -1,0 +1,14 @@
+D:\jenny\Day3\PlayerList\obj\Debug\net8.0\PlayerList.GeneratedMSBuildEditorConfig.editorconfig
+D:\jenny\Day3\PlayerList\obj\Debug\net8.0\PlayerList.AssemblyInfoInputs.cache
+D:\jenny\Day3\PlayerList\obj\Debug\net8.0\PlayerList.AssemblyInfo.cs
+D:\jenny\Day3\PlayerList\obj\Debug\net8.0\PlayerList.csproj.CoreCompileInputs.cache
+D:\jenny\Day3\PlayerList\bin\Debug\net8.0\PlayerList.exe
+D:\jenny\Day3\PlayerList\bin\Debug\net8.0\PlayerList.deps.json
+D:\jenny\Day3\PlayerList\bin\Debug\net8.0\PlayerList.runtimeconfig.json
+D:\jenny\Day3\PlayerList\bin\Debug\net8.0\PlayerList.dll
+D:\jenny\Day3\PlayerList\bin\Debug\net8.0\PlayerList.pdb
+D:\jenny\Day3\PlayerList\obj\Debug\net8.0\PlayerList.dll
+D:\jenny\Day3\PlayerList\obj\Debug\net8.0\refint\PlayerList.dll
+D:\jenny\Day3\PlayerList\obj\Debug\net8.0\PlayerList.pdb
+D:\jenny\Day3\PlayerList\obj\Debug\net8.0\PlayerList.genruntimeconfig.cache
+D:\jenny\Day3\PlayerList\obj\Debug\net8.0\ref\PlayerList.dll
