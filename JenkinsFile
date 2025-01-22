@@ -1,0 +1,55 @@
+pipeline
+{
+    agent any
+    stages {
+        stage('Checkout') {
+            steps {
+                git 'https://github.com/debeski/Day3.git'
+                echo 'Step 1 - Checking out'
+            }
+        }
+        stage('Restore') {
+            steps {
+                dir('./PlayerList') { // Replace this with the relative path to the .sln or .csproj file
+                    bat 'dotnet restore'
+                }
+                echo 'Step 2 - Restoring Packages'
+            }
+        }
+        stage('Build') {
+            steps {
+                dir('./PlayerList') { // Ensure the correct directory is used
+                    bat 'dotnet build'
+                }
+                echo 'Step 3 - Building the App'
+            }
+        }
+        stage('Test') {
+            steps {
+                dir('./PlayerList.Tests') { // Ensure the correct directory is used
+                    bat 'dotnet test --no-build --verbosity normal'
+                }
+                echo 'Step 4 - Testing the App'
+            }
+        }
+        stage('Run') {
+            steps {
+                dir('./PlayerList') { // Ensure the correct directory is used
+                    bat 'dotnet run --no-build --verbosity normal'
+                }
+                echo 'Step 5 - Running the App'
+            }
+        }
+    }
+    post
+    {
+        success
+        {
+            echo 'Pipeline Completed Successfully'
+        }
+        failure
+        {
+            echo 'Pipeline Failed'
+        }
+    }
+}
